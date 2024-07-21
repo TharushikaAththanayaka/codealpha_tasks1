@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Playlist</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head-top">
+            <button id="menuButton">
+                <img src="./img/symbols/menu.png" alt="Menu">
+            </button>
+        </div>
+        <br/>
+        <div class="song-img">
+            <img id="cover" src="./img/aisa-main.jfif" alt="Song Cover">
+        </div>
+        <br/>
+        <div class="des">
+            <h3 id="songTitle">Aisa - Main</h3>
+            <h4 id="songArtist">Raftaar, Amit Trivedi, Kumaar</h4>
+        </div>
+        <br/>
+        <br/>
+        <div class="btn">
+            <button id="prevButton">
+                <img src="./img/symbols/previous.png" alt="previous" class="next">
+            </button>
+            <button id="playButton">
+                <img src="./img/symbols/play11.jpg" alt="Play" id="playIcon">
+            </button>
+            <button id="nextButton">
+                <img src="./img/symbols/next1.png" alt="Next" class="next">
+            </button>
+        </div>
+        <div class="line">
+            <img src="./img/symbols/line1.jfif">
+        </div>
+    </div>
+    <audio id="audioPlayer" src="./songs/128-Aisa Main Shaitaan - Shaitaan 128 Kbps.mp3"></audio>
+
+    <script src="./index.js"></script>
+</body>
+</html>
